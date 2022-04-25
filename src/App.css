@@ -29,5 +29,89 @@ p {
 }
 
 .navbar {
-  @apply flex flex-col lg:flex-row justify-between items-center p-5;
+  @apply flex flex-col lg:flex-row justify-between items-center py-5;
+}
+
+.showCase {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* align-content: center; */
+  @apply grid-cols-1 lg:grid-cols-2;
+}
+
+.showCase .about {
+  @apply flex flex-col justify-center;
+  /* height: 500px; */
+}
+
+.showCase h1 {
+  font-size: 3.125rem;
+  color: #04352e;
+  @apply italic text-center lg:text-left text-2xl lg:text-5xl;
+}
+
+.showCase h1 .bold {
+  @apply font-bold;
+}
+
+.showCase p {
+  font-size: 1.5625rem;
+  color: #046255;
+  @apply not-italic my-5 lg:my-10 text-center lg:text-left text-lg lg:text-2xl;
+}
+
+.showCase p .semiBold {
+  @apply font-semibold;
+}
+
+.showCase p .dark {
+  color: #04352e;
+  display: inline;
+}
+
+.showCase form {
+  height: 100px;
+  width: 467px;
+  @apply flex items-center justify-center w-full lg:w-fit;
+}
+
+.showCase form .input {
+  background-color: #ffffff;
+  background-color: #ffffff;
+  padding: 10px 0;
+  @apply rounded-xl;
+}
+
+.showCase form .input.file {
+  width: 20%;
+  padding-left: 15px;
+}
+
+.showCase form .input.file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.showCase form .input.file::before {
+  content: 'Upload.me';
+  display: inline-block;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.showCase form .input.text {
+  @apply outline-hidden border-none;
+  outline: none;
+}
+
+form button.submit {
+  background-color: #1cbfa8;
+}
+
+form button.sell {
+  @apply p-3 capitalize text-white rounded-lg mx-2 hidden sm:inline-block;
+  width: 134px;
+  background: #04352e;
 }
