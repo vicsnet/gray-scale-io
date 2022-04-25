@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -8,4 +10,24 @@ body {
   color: #04352e;
   background: #f7f5fa;
   font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* utilities */
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.navbar {
+  @apply flex flex-col lg:flex-row justify-between items-center p-5;
 }

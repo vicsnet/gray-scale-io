@@ -1,10 +1,13 @@
 import Navbar from '../layouts/Navbar';
+import ShowCase from '../layouts/ShowCase';
 
 const Home = () => {
   return (
     <div className='Home'>
-      <Navbar />
-      <h1>Home</h1>
+      <div className='container px-10'>
+        <Navbar />
+        <ShowCase />
+      </div>
     </div>
   );
 };
