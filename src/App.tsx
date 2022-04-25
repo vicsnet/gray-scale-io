@@ -1,12 +1,16 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './components/pages/Home';
 import AppState from './context/appContext/AppState';
 
 const App = () => {
   return (
     <AppState>
-      <div className='flex justify-center items-center'>
-        <h1 className='text-2xl'>Team Gray scale</h1>
-      </div>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </Router>
     </AppState>
   );
 };
