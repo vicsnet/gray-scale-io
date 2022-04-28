@@ -115,3 +115,32 @@ form button.sell {
   width: 134px;
   background: #04352e;
 }
+
+.feature-card {
+  max-width: 1124px;
+  margin: auto;
+}
+
+.feature-card > h1 {
+  font-size: 30px;
+  @apply mb-10 font-bold;
+}
+
+.feature-card .card-container {
+  /* height: 484px; */
+  @apply flex items-center justify-between flex-wrap;
+}
+
+.feature-card .card-container .assets-item {
+  width: 334.88px;
+  height: 483px;
+  @apply my-3 rounded-2xl m-auto;
+}
+
+.feature-card .card-container .assets-item > div.img {
+  position: relative;
+}
+
+.feature-card .card-container .assets-item .assets-link {
+  @apply text-red-400 absolute bottom-5 right-5 capitalize px-8 py-2 rounded-lg;
+}

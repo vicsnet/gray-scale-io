@@ -6,7 +6,7 @@ const ShowCase = () => {
     <div className='showCase'>
       <div className='about'>
         <h1>
-          <span className='bold'>Find, sell</span> sell, and{' '}
+          <span className='bold'>Find, sell,</span> and{' '}
           <span className='bold'>port</span> metaverse real estate & assets{' '}
         </h1>
         <p>

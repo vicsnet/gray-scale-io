@@ -1,5 +1,6 @@
 import Navbar from '../layouts/Navbar';
 import ShowCase from '../layouts/ShowCase';
+import FeatureAssets from '../layouts/FeatureAssets';
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
       <div className='container px-10'>
         <Navbar />
         <ShowCase />
+        <FeatureAssets />
       </div>
     </div>
   );
