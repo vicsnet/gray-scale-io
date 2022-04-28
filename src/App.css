@@ -144,3 +144,51 @@ form button.sell {
 .feature-card .card-container .assets-item .assets-link {
   @apply text-red-400 absolute bottom-5 right-5 capitalize px-8 py-2 rounded-lg;
 }
+
+.footer {
+  background: #04352e;
+  height: 330px;
+  @apply mt-16 rounded-xl flex justify-center items-center;
+  z-index: 1;
+}
+
+.footer .bg {
+  background-image: url('./img/footer-image.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 90%;
+  z-index: 2;
+  color: #ffffff;
+  @apply flex justify-center items-center;
+}
+
+.footer .bg .content {
+  @apply w-3/4 text-center;
+}
+
+.footer .bg h1 {
+  @apply font-semibold text-2xl;
+}
+
+.footer .bg p {
+  @apply text-sm text-gray-400 my-5;
+}
+
+.footer .form {
+  @apply my-2;
+  width: 100%;
+}
+
+.footer .form .text-input {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  @apply rounded-l-md outline-none w-1/2;
+}
+
+.footer .form .btn {
+  background-color: #1cbfa8;
+  padding: 10px;
+  @apply my-3 rounded-r-md;
+}
