@@ -116,6 +116,8 @@ form button.sell {
   background: #04352e;
 }
 
+/* Featured Assets */
+
 .feature-card {
   max-width: 1124px;
   margin: auto;
@@ -144,6 +146,45 @@ form button.sell {
 .feature-card .card-container .assets-item .assets-link {
   @apply text-red-400 absolute bottom-5 right-5 capitalize px-8 py-2 rounded-lg;
 }
+
+/* HOW TO */
+
+.how-to {
+  max-width: 80%;
+  @apply text-center my-20 mx-auto;
+}
+
+.how-to .header h1 {
+  @apply font-bold mb-2 -mt-10 sm:-mt-8 text-2xl md:text-4xl;
+}
+
+.how-to .header p {
+  @apply font-medium my-5 w-full;
+}
+
+.how-to .cards {
+  @apply my-10 flex justify-around items-center flex-wrap w-full;
+}
+
+.how-to .cards .card {
+  width: 30%;
+  width: 290px;
+  height: 290px;
+  @apply bg-white rounded-xl flex flex-col justify-center items-center my-5;
+}
+
+.how-to .cards .card h1 {
+  font-size: 23px;
+  @apply mt-5 mb-2 font-semibold text-lg sm:text-xl pt-5;
+}
+
+.how-to .cards .card p {
+  font-size: 16;
+  width: 80%;
+  @apply font-medium text-sm sm:text-lg;
+}
+
+/* FOOTER */
 
 .footer {
   background: #04352e;
