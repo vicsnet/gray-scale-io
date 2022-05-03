@@ -8,4 +8,4 @@ And with that you can develop locally
 
 ### FE Flow
 
-Auth -> Clients Overview -> Client Details
+Landing Page -> 
